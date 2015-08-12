@@ -161,10 +161,14 @@ p {
 	display: flex;
 }
 
-#mineralchemy {
+#mineralchemy-description {
 	margin-left: 70px;
-	margin-right: 16px;
+	margin-right: 15px;
 	max-width: 693px;
+}
+
+#mineralchemy-title {
+	width: 282px;
 }
 
 #mineralchemy-subtitle {
@@ -179,12 +183,20 @@ p {
     width: auto; 
   }
   #project-wrapper {
-  	display: inline;
-  	width: auto;
+  	display: table;
+  	max-width: 800px;
+  	margin: 0 auto;
+  	border-spacing: 0 20px;
   }
-  #mineralchemy {
-  	margin-left: 0px;
-  	margin-right: 0px;
+  #mineralchemy-description {
+  	display: table-footer-group;
+  }
+  #mineralchemy-title {
+  	display: table-header-group;
+  }
+  #mineralchemy-description h4 {
+  	padding-left: 15px;
+  	padding-right: 15px;
   }
 }
 
