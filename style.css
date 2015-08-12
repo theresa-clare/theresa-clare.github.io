@@ -263,14 +263,13 @@ table {
 
 .leadership-wrapper {
 	display: inline-block;
+	text-align: justify;
 }
 
 .leadership-position {
 	display: inline-block;
 	min-width: 350px;
 	padding-top: 45px;
-	margin-left: 30px;
-	margin-right: 30px;
 }
 
 .contact-div {
