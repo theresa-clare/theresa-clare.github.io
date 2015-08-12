@@ -1,0 +1,272 @@
+html, body {
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	padding: 45px 0 0 0;
+	font-family: "Titillium Web", sans-serif;
+
+    background: url('images/tech-background.jpg') ghostwhite no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    background-size: cover;
+}
+
+p {
+	font-size: 16px;
+	padding-top: 15px;
+}
+
+.thin-font {
+	font-family: "Titillium Web", sans-serif;
+	font-weight: 100;
+}
+
+.midbold-font {
+	font-family: "Titillium Web", sans-serif;
+	font-weight: 300;
+}
+
+.bold-font {
+	font-family: "Titillium Web", sans-serif;
+	font-weight: 600;	
+}
+
+.italic {
+	font-style: italic;
+}
+
+.normal {
+	font-style: normal;
+}
+
+.remove-top-padding {
+	padding-top: none;
+}
+
+.inverse-text {
+	color: white;
+	text-shadow: 2px 2px black;
+}
+
+.header {
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+.nav {
+	background-color: white;
+	text-align: center;
+	margin-bottom: 0;
+	transition: all 0.25s linear;
+}
+
+.inverse-nav {
+	background-color: rgba( 0, 0, 0, .5 );
+	border-bottom: 1px solid white;
+}
+
+#navbar.inverse-nav a {
+	color: white;
+}
+
+#navbar.inverse-nav a:hover {
+	color: black;
+}
+
+.nav li {
+	list-style: none;
+	display: inline-block;
+	font-size: 13px;
+	width: 200px;
+}
+
+.nav a {
+	color: black;
+	transition: all 0.25s linear;
+}
+
+.slide {
+	background-position: center center;
+	padding-top: 70px;
+	padding-bottom: 70px;
+	text-align: center;
+}
+
+.big-glyphicon {
+	font-size: 200px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.main-icon {
+	height: 120px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#about-me-wrapper {
+	display: flex;
+}
+
+.about-me-div {
+	display: inline-block;
+	min-height: 250px;
+	padding-top: 15px;
+	margin: 0 auto;
+}
+
+#about-me-div1 {
+	width: 200px;
+	padding-top: 30px;
+}
+
+#about-me-div2 {
+	max-width: 800px;
+}
+
+#vertical-headshot {
+	max-width: 100%;
+	max-height: 100%;
+	box-shadow: 5px 5px 5px #888888;
+}
+
+.code-skill {
+	display: inline-block;
+	background: rgba(0,0,0,0.6);
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 15px;
+	margin: 10px;
+}
+
+.code-skill-inverse {
+	background: rgba(255,255,255,0.6);
+	padding-bottom: 0px;
+}
+
+.code-skill-projects {
+	display: flex;
+}
+
+#mineralchemy {
+	margin-left: 70px;
+	margin-right: 16px;
+	width: 693px;
+}
+
+#mineralchemy-subtitle {
+	padding-top: 0px;
+	padding-bottom: 27px;
+}
+
+@media screen and (max-width: 1200px) {
+   #about-me-wrapper { 
+   	display: inline;
+    float: none;
+    width: auto; 
+  }
+  #project-wrapper {
+  	display: inline;
+  	width: auto;
+  }
+  #mineralchemy {
+  	margin-left: 0px;
+  	margin-right: 0px;
+  }
+}
+
+#question {
+	width: 280px;
+}
+#devices {
+	height: 150px;
+}
+
+#home {
+	color: white;
+	height: 600px;
+	margin-top: 50px;
+}
+
+#home h1 {
+	font-size: 54px;
+	padding-bottom: 7px;
+}
+
+#home h4 {
+	font-size: 28px;
+}
+
+#about-me {
+	background-color: white;
+}
+
+#leadership {
+	background-color: white;
+}
+
+.black-hr {
+	border-color: black;
+}
+
+.small-hr {
+	width: 100px;
+}
+
+#impact {
+	padding-bottom: 8px;
+}
+
+#email-icon {
+	height: 75px;
+}
+
+#linkedin-icon {
+	height: 100px;
+}
+
+#github-icon {
+	height: 80px;
+}
+
+#twitter-icon {
+	height: 55px;
+}
+
+#medium-icon {
+	height: 55px;
+}
+
+table {
+	margin: auto;
+}
+
+#email-link {
+	color: white;
+}
+
+.email-padding {
+	padding-right: 25px;
+}
+
+.linkedin-padding {
+	padding-right: 20px;
+}
+
+.extra-padding {
+	padding-right: 40px
+}
+
+.leadership-position {
+	display: inline-block;
+	width: 400px;
+	padding-top: 45px;
+}
+
+.contact-div {
+	display: inline-block;
+}
