@@ -155,7 +155,7 @@ p {
 #mineralchemy {
 	margin-left: 70px;
 	margin-right: 16px;
-	width: 693px;
+	max-width: 693px;
 }
 
 #mineralchemy-subtitle {
