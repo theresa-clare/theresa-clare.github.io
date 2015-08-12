@@ -144,7 +144,7 @@ p {
 }
 
 .code-skill-inverse {
-	background: rgba(255,255,255,0.6);
+	background: rgba(255,255,255,0.8);
 	padding-bottom: 0px;
 }
 
@@ -261,9 +261,10 @@ table {
 	padding-right: 40px
 }
 
-.leadership-wrapper {
+.code-skill-wrapper {
 	display: inline-block;
 	text-align: justify;
+	margin: 0 auto;
 }
 
 .leadership-position {
