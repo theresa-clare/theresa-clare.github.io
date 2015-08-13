@@ -150,6 +150,7 @@ p {
 	padding-right: 15px;
 	padding-bottom: 15px;
 	margin: 10px;
+	text-align: center;
 }
 
 @media screen and (max-width: 800px) {
