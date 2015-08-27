@@ -305,6 +305,12 @@ table {
 	padding-top: 45px;
 }
 
+@media screen and (max-width: 704px) {
+	.leadership-position {
+		width: auto;
+	}
+}
+
 .contact-div {
 	display: inline-block;
 }
