@@ -183,6 +183,10 @@ p {
 	padding-bottom: 27px;
 }
 
+#mineralchemy-link {
+	color: black;
+}
+
 @media screen and (max-width: 1200px) {
    #about-me-wrapper { 
    	display: inline;
